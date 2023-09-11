@@ -1,0 +1,53 @@
+.logo{
+    height: 7%;
+    width: 7%;
+    object-fit: 30% 30%;
+}
+body{
+    background-color: #f0eded;
+}
+.container{
+    max-width: 1000px;
+    display: block;
+    background-color: bisque;
+    border: 2px solid black;
+    padding: 30px;
+    overflow-y: auto;
+    margin:auto;
+    height:60vh;
+    margin-top: -5%;
+}
+
+.message{
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 20px;
+    border: 2px solid black;
+    width: 25%;
+    padding: 10px;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.send{
+    padding: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#mes{
+    height: 30px;
+    width: 60%;
+}
+.btn{
+    background-color: burlywood;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+}
